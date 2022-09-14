@@ -973,14 +973,6 @@
         "survival"
       ]
     },
-    "collostructions": {
-      "Package": "collostructions",
-      "Version": "0.2.0",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "111377e44ee3f627a5c16cc82d4e9415",
-      "Requirements": []
-    },
     "colorspace": {
       "Package": "colorspace",
       "Version": "2.0-3",
