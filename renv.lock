@@ -5108,16 +5108,6 @@
         "sp"
       ]
     },
-    "spDataLarge": {
-      "Package": "spDataLarge",
-      "Version": "2.0.6",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "2541a848cff33f1d9a7763ca753a9d82",
-      "Requirements": [
-        "raster"
-      ]
-    },
     "spatial": {
       "Package": "spatial",
       "Version": "7.3-15",
