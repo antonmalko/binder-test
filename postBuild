@@ -3,4 +3,5 @@ R -e 'install.packages(
     repos=NULL,
     type="source"
 )'
+R -e 'lock<-renv:::lockfile("renv.lock");lock$remove("collostructions"); lock$write("renv.lock")'
 R -e 'install.packages("renv"); renv::restore()'
