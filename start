@@ -1,2 +1,0 @@
-#!/bin/bash
-echo "session-default-working-dir=~/content/" >> /etc/rstudio/rsession.conf
