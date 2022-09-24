@@ -2,3 +2,4 @@ libharfbuzz-dev
 libfribidi-dev
 cmake
 libmpfr-dev
+libglpk-dev
