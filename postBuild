@@ -4,4 +4,4 @@ R -e 'install.packages(
     type="source"
 )'
 R -e 'install.packages("renv");lock<-renv:::lockfile("renv.lock");lock$remove("collostructions"); lock$write("renv.lock")'
-R -e 'renv::restore()'
+R -e 'renv::restore(repos = c(CRAN = "https://packagemanager.rstudio.com/cran/__linux__/bionic", Geocompr = "https://nowosad.github.io/drat/"))'
