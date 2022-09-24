@@ -1,7 +1,1 @@
-R -e 'install.packages(
-    "https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",
-    repos=NULL,
-    type="source"
-)'
-R -e 'install.packages("renv");lock<-renv:::lockfile("renv.lock");lock$remove("collostructions"); lock$write("renv.lock")'
-R -e 'renv::restore(repos = c(CRAN = "https://packagemanager.rstudio.com/all/latest", Geocompr = "https://nowosad.github.io/drat/"), packages = "glottoTrees")'
+echo "session-default-working-dir=~/content/" >> /etc/rstudio/rsession.conf
