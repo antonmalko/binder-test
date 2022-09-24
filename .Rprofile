@@ -1,1 +1,1 @@
-setwd("./content")
+setwd("~/content")
