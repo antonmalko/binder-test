@@ -19,7 +19,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       # Runs a set of commands using the runners shell
       - name: Push posts
@@ -30,6 +30,6 @@ jobs:
           source_file: 'renv.lock' # Folder to copy
           destination_repo: 'antonmalko/binder-env-test' # Target repo
           user_name: 'antonmalko'
-          user_email: 'amalko@umd.edu'
+          user_email: 'test@gmail.com'
           commit_message: "AUTO: syncing renv.lock on change"
           git_server: 'github.com'
