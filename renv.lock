@@ -760,17 +760,6 @@
         "tidyr"
       ]
     },
-    "cellranger": {
-      "Package": "cellranger",
-      "Version": "1.1.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "f61dbaec772ccd2e17705c1e872e9e7c",
-      "Requirements": [
-        "rematch",
-        "tibble"
-      ]
-    },
     "cfa": {
       "Package": "cfa",
       "Version": "0.10-0",
