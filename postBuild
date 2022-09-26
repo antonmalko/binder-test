@@ -1,3 +1,11 @@
+R -e 'install.packages(
+    "https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",
+    repos=NULL,
+    type="source"
+)'
+R -e 'install.packages("renv");lock<-renv:::lockfile("renv.lock");lock$remove("collostructions"); lock$write("renv.lock")'
+R -e 'renv::restore(repos = c(CRAN = "https://packagemanager.rstudio.com/all/latest", Geocompr = "https://nowosad.github.io/drat/"))'
+
 svn export https://github.com/antonmalko/SLCLADAL.github.io/trunk/content ~/content
 cp -r ~/content ~/originals
 rm -f ~/renv.lock ~/runtime.txt ~/.Rhistory ~/postBuild ~/.gitignore ~/apt.txt
