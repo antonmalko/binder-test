@@ -760,14 +760,6 @@
         "tidyr"
       ]
     },
-    "carData": {
-      "Package": "carData",
-      "Version": "3.0-5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "ac6cdb8552c61bd36b0e54d07cf2aab7",
-      "Requirements": []
-    },
     "caret": {
       "Package": "caret",
       "Version": "6.0-93",
