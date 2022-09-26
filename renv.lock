@@ -760,26 +760,6 @@
         "tidyr"
       ]
     },
-    "caret": {
-      "Package": "caret",
-      "Version": "6.0-93",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b42032ec38bd2ebcaf70f26120bd4d3a",
-      "Requirements": [
-        "ModelMetrics",
-        "e1071",
-        "foreach",
-        "ggplot2",
-        "lattice",
-        "nlme",
-        "pROC",
-        "plyr",
-        "recipes",
-        "reshape2",
-        "withr"
-      ]
-    },
     "cellranger": {
       "Package": "cellranger",
       "Version": "1.1.0",
