@@ -760,25 +760,6 @@
         "tidyr"
       ]
     },
-    "car": {
-      "Package": "car",
-      "Version": "3.1-0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "afd3f5c7d144f00d05db8e7701af7829",
-      "Requirements": [
-        "MASS",
-        "abind",
-        "carData",
-        "lme4",
-        "maptools",
-        "mgcv",
-        "nlme",
-        "nnet",
-        "pbkrtest",
-        "quantreg"
-      ]
-    },
     "carData": {
       "Package": "carData",
       "Version": "3.0-5",
