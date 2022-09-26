@@ -760,14 +760,6 @@
         "tidyr"
       ]
     },
-    "cfa": {
-      "Package": "cfa",
-      "Version": "0.10-0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "da99093e147fc491a147419ddca5b582",
-      "Requirements": []
-    },
     "checkmate": {
       "Package": "checkmate",
       "Version": "2.1.0",
