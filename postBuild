@@ -1,2 +1,3 @@
 cd ~/content
 wget https://github.com/SLCLADAL/SLCLADAL.github.io/blob/master/content/contact.Rmd
+rm -f renv.lock postBuild runtime.txt apt.txt
