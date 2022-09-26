@@ -760,17 +760,6 @@
         "tidyr"
       ]
     },
-    "cachem": {
-      "Package": "cachem",
-      "Version": "1.0.6",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "648c5b3d71e6a37e3043617489a0a0e9",
-      "Requirements": [
-        "fastmap",
-        "rlang"
-      ]
-    },
     "callr": {
       "Package": "callr",
       "Version": "3.7.0",
