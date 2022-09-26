@@ -10,4 +10,8 @@ svn export https://github.com/antonmalko/SLCLADAL.github.io/trunk/content ~/cont
 cp -r ~/content ~/originals
 rm -f ~/renv.lock ~/runtime.txt ~/.Rhistory ~/postBuild ~/.gitignore ~/apt.txt
 
-echo "setwd('~/content')\nsetHook('rstudio.sessionInit'', function(newSession) {\nif (newSession)\nrstudioapi::filesPaneNavigate(getwd())\n}, action = 'append'')" >> ~/.Rprofile
+echo "setwd('~/content')" >> ~/.Rprofile
+echo "setHook('rstudio.sessionInit'', function(newSession) {" >> ~/.Rprofile
+echo "if (newSession)" >> ~/.Rprofile
+echo "rstudioapi::filesPaneNavigate(getwd())" >> ~/.Rprofile
+echo "}, action = 'append'')" >> ~/.Rprofile
