@@ -5,7 +5,6 @@ R -e 'install.packages(
 )'
 R -e 'install.packages("renv");lock<-renv:::lockfile("renv.lock");lock$remove("collostructions"); lock$write("renv.lock")'
 R -e 'renv::restore(repos = c(CRAN = "https://packagemanager.rstudio.com/all/latest", Geocompr = "https://nowosad.github.io/drat/"))'
-
 svn export https://github.com/antonmalko/SLCLADAL.github.io/trunk/content ~/content
 cp -r ~/content ~/originals
 rm -f ~/renv.lock ~/runtime.txt ~/.Rhistory ~/postBuild ~/.gitignore ~/apt.txt
