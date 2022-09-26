@@ -9,3 +9,5 @@ R -e 'renv::restore(repos = c(CRAN = "https://packagemanager.rstudio.com/all/lat
 svn export https://github.com/antonmalko/SLCLADAL.github.io/trunk/content ~/content
 cp -r ~/content ~/originals
 rm -f ~/renv.lock ~/runtime.txt ~/.Rhistory ~/postBuild ~/.gitignore ~/apt.txt
+
+echo "setwd('~/content')\nsetHook('rstudio.sessionInit'', function(newSession) {\nif (newSession)\nrstudioapi::filesPaneNavigate(getwd())\n}, action = 'append'')" >> ~/.Rprofile
