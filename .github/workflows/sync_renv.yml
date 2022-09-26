@@ -24,11 +24,11 @@ jobs:
       - name: Push posts
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.sync_repos }}
+          API_TOKEN_GITHUB: ${{ secrets.SYNC_REPOS}}
         with:
           source_file: 'renv.lock' # Folder to copy
           destination_repo: 'antonmalko/binder-env-test' # Target repo
-          destination_folder: '/' # Folder where to copy it
-          user_name: 'robot_sync'
+          user_name: 'antonmalko'
+          user_email: 'amalko@umd.edu'
           commit_message: "AUTO: syncing renv.lock on change"
           git_server: 'github.com'
