@@ -27,7 +27,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.SYNC_REPOS }}
         with:
-          source_file: './renv.lock' # Folder to copy
+          source_file: 'renv.lock' # Folder to copy
           destination_repo: 'antonmalko/binder-env-test' # Target repo
           user_name: 'antonmalko'
           user_email: 'amalko@umd.edu'
