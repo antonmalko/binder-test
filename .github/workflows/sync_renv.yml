@@ -18,15 +18,15 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       # Runs a set of commands using the runners shell
       - name: Push posts
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.SYNC_REPOS}}
+          API_TOKEN_GITHUB: ${{ secrets.SYNC_REPOS }}
         with:
-          source_file: 'renv.lock' # Folder to copy
+          source_file: './renv.lock' # Folder to copy
           destination_repo: 'antonmalko/binder-env-test' # Target repo
           user_name: 'antonmalko'
           user_email: 'amalko@umd.edu'
