@@ -8,3 +8,5 @@ echo "setHook('rstudio.sessionInit', function(newSession) {" >> ~/.Rprofile
 echo "if (newSession)" >> ~/.Rprofile
 echo "rstudioapi::filesPaneNavigate(getwd())" >> ~/.Rprofile
 echo "}, action = 'append')" >> ~/.Rprofile
+
+exec "$@"
