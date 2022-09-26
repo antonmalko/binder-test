@@ -760,20 +760,6 @@
         "tidyr"
       ]
     },
-    "bslib": {
-      "Package": "bslib",
-      "Version": "0.3.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "56ae7e1987b340186a8a5a157c2ec358",
-      "Requirements": [
-        "htmltools",
-        "jquerylib",
-        "jsonlite",
-        "rlang",
-        "sass"
-      ]
-    },
     "caTools": {
       "Package": "caTools",
       "Version": "1.18.2",
