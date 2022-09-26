@@ -25,7 +25,7 @@ jobs:
       - name: Push posts
         uses: dmnemec/copy_file_to_another_repo_action@main
         env:
-          API_TOKEN_GITHUB: ${{ secrets.SYNC_REPOS }}
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source_file: 'renv.lock' # Folder to copy
           destination_repo: 'antonmalko/binder-env-test' # Target repo
