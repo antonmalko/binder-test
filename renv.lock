@@ -760,17 +760,6 @@
         "tidyr"
       ]
     },
-    "callr": {
-      "Package": "callr",
-      "Version": "3.7.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "461aa75a11ce2400245190ef5d3995df",
-      "Requirements": [
-        "R6",
-        "processx"
-      ]
-    },
     "car": {
       "Package": "car",
       "Version": "3.1-0",
