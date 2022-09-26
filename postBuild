@@ -1,3 +1,4 @@
+#!/bin/bash
 R -e 'install.packages(
     "https://sfla.ch/wp-content/uploads/2021/02/collostructions_0.2.0.tar.gz",
     repos=NULL,
